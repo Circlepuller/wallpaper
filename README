@@ -1,0 +1,7 @@
+simple wallpaper changer for i3, awesome, or whatever you use that supports feh.
+
+requires:
+- bash
+- python
+- imagemagick convert command
+- feh
