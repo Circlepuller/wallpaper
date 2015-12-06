@@ -5,3 +5,5 @@ requires:
 - python
 - imagemagick convert command
 - feh
+
+make sure you have the scripts in $HOME/.wallpapers
