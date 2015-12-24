@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import os
 import praw
 import re
 from math import gcd
@@ -10,7 +11,7 @@ subreddit = "wallpapers"
 allowed_resolutions = ["1920x1080"]
 allowed_extentions = ["png", "jpg",]
 filename="wallpaper"
-directory=os.path.expanduser("~/.wallpapers")
+directory=os.path.expanduser("~/.wallpapers/")
 ### END SETTINGS ###
 
 version='1.1'
